@@ -1,5 +1,6 @@
 function Navbar() {
   return (
+    // This is the navigation bar component
     <nav className="bg-gray-800 px-6 py-4 flex justify-between items-center shadow-lg">
       <div className="text-2xl font-bold">YourName</div>
       <div className="space-x-6">
