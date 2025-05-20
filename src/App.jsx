@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-900 text-white w-full overflow-x-hidden">
+    <div className="min-h-screen flex flex-col bg-transparent text-white w-full overflow-x-hidden"> {/* Changed bg-gray-900 to bg-transparent */}
       <Navbar />
       <main className="flex-grow w-full">
         <Hero />
@@ -21,4 +21,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
